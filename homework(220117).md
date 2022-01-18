@@ -34,9 +34,9 @@ abs(num1 - num2) <= 1e-10
 ```python
 ### 3. 이스케이프 시퀀스
 
-줄바꿈 \n
-탭 \t
-백슬래시 \b
+'\\n'
+'\\t'
+'\\\\'
 
 ```
 
@@ -131,26 +131,7 @@ int('3.5')
 
 ```python
 ### 6. 네모 만들기
-```
 
-    5
-    
-
-
-    ---------------------------------------------------------------------------
-
-    ValueError                                Traceback (most recent call last)
-
-    Input In [17], in <module>
-    ----> 1 n, m = map(int, input().strip().split(''))
-          2 print(('*'*n + '\n') * m)
-    
-
-    ValueError: empty separator
-
-
-
-```python
 for i in range(9):           
     for j in range(5):      
         print('*', end='')  
@@ -181,10 +162,11 @@ print('\"파일은 c: \\WIndows\\Users\\내문서\\Python에 저장이 되었습
 
 ```python
 ### 8.
-```
 
 
-```python
+   (-b + (b**2 - 4*a*c)**(1/2)) / (2*a)
+   (-b - (b**2 - 4*a*c)**(1/2)) / (2*a)
+   ```
 
 ```
 
@@ -310,18 +292,16 @@ for i in range(9):
 
 ```python
 ### 5. 조건 표현식
-```
 
-
-```python
-
+temp = 36.5
+print('입실 불가') if temp >= 37.5 else print('입실 가능')
 ```
 
 
 ```python
 ### 6. 평균 구하기 ??
 scores = [80, 89, 99, 83]
-sum(scores) / len(scores)
+print(sum(scores) / len(scores))
 ```
 
 

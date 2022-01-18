@@ -20,12 +20,8 @@ print(keyword.kwlist)
 num1 = 0.1 * 3
 num2 = 0.3
 
-print(num1) == print(num2)
+abs(num1 - num2) <= 1e-10
 ```
-
-    0.30000000000000004
-    0.3
-    
 
 
 
@@ -134,7 +130,7 @@ int('3.5')
 
 
 ```python
-### 6. 
+### 6. 네모 만들기
 ```
 
     5
@@ -152,6 +148,25 @@ int('3.5')
 
     ValueError: empty separator
 
+
+
+```python
+for i in range(9):           
+    for j in range(5):      
+        print('*', end='')  
+    print()        
+```
+
+    *****
+    *****
+    *****
+    *****
+    *****
+    *****
+    *****
+    *****
+    *****
+    
 
 
 ```python
